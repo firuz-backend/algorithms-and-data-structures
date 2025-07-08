@@ -16,23 +16,3 @@ class Xrange:
         ):
             raise StopIteration
         return self.start
-
-
-evens = Xrange(0, 10, 2)
-
-print(*evens)
-
-
-xrange = Xrange(0, 3, 0.5)
-
-print(*xrange, sep='; ')
-
-
-xrange = Xrange(5, 10)
-
-print(*xrange)
-
-
-xrange = Xrange(10, 1, -1)
-
-print(*xrange)
